@@ -1,0 +1,38 @@
+main {
+  margin-left: 250px;
+  margin-top: 58px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+body {
+  margin: 0;
+}
+
+
+.top_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+.sidebar {
+  margin: 0;
+  position: fixed;
+  top: 50px;
+  width: 200px;
+  height: 100%;
+  background-color: #f6f6f6;
+  left: 0;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.sidebar a {
+  display: block;
+  text-decoration: none;
+  color: #252525;
+}
+.sidebar li {
+  list-style-type: circle;
+}
