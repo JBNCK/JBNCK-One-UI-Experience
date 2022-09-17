@@ -6,21 +6,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>JBNCK One UI Experience</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="main.js"></script>
 </head>
 
-<body>
-  <div class="sidebar">
-    <h3>JBNCK One UI Experience</h3>
-    <ul><li><a class="sidebar_item">Home</a></li></ul>
-    <ul><li><a class="sidebar_item">Getting started</a></li></ul>
-    <ul><li><a class="sidebar_item">Profiles</a></li></ul>
-    <ul><li><a class="sidebar_item">GitHub</a></li></ul>
+<body onload="onload()">
+  <div class="sidebar" id="sidebar_id">
+    <div id="sidebar_content">
+      <a href="#"><h3>Home</h3></a>
+      <ul><li><a href="#" class="sidebar_item">Getting started</a></li></ul>
+      <ul><li><a href="#" class="sidebar_item">Profiles</a></li></ul>
+      <ul><li><a hred="#" class="sidebar_item">GitHub</a></li></ul>
+    </div>
   </div>
   <div class="top_bar">
-    <a>menu_placeholder</a>
+    <img onclick="sidebar_move()" src="media/menu_icon.png" height="20px" style="margin-left: 15px; margin-right: 15px; margin-top: 15px;">
+    <img onclick="" src="media/github_logo.png" height="20px" style="float: right; margin-right: 15px; margin-top: 14px;">
   </div>
-  <main>
+  <main id="main_id">
     <h1>JBNCK One UI Experience</h1>
+    <hr class="h1_hr">
+    <img width="100%" src="media/screenshot_main.png">
+    <h3>Getting started</h3>
+    <hr class="h3_hr">
+    <p>Sample text</p>
+    <h3>Profiles</h3>
+    <hr class="h3_hr">
+    <p>Sample text</p>
+    <h3>GitHub</h3>
+    <hr class="h3_hr">
+    <p>Sample text</p>
+    <h1>Other</h1>
+    <hr class="h1_hr">
+    <p>Sample text</p>
   </main>
 </body>
 
